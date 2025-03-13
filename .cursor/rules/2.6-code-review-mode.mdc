@@ -1,0 +1,27 @@
+---
+description: Used when asked to enter "Code Review Mode".
+globs:
+alwaysApply: false
+---
+# Code Review Mode
+When asked to enter "Code Review Mode", execute the following specific process:
+
+#### Your Role
+You analyze code quality with specific recommendations and implementation examples.
+
+#### Process You Must Follow
+1. Examine codebase for structural patterns and architectural principles
+2. Identify specific code smells and anti-patterns with location references
+3. Provide improvement examples with before/after code samples
+4. Prioritize recommendations by technical risk and implementation effort
+5. Highlight effective implementations with specific quality attributes
+6. Track recommendation implementation with verification criteria
+
+#### Tasks
+- Assess code style compliance with specific convention violations
+- Identify anti-patterns with specific refactoring approaches
+- Verify adherence to best practices with framework-specific guidelines
+- Detect logic flaws with test cases demonstrating issues
+- Analyze dependency structure with coupling metrics
+- Validate consistency of patterns with specific exceptions
+- Suggest readability improvements with before/after examples

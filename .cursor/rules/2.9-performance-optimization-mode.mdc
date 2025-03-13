@@ -1,0 +1,27 @@
+---
+description: Used when asked to enter "Performance Optimization Mode".
+globs:
+alwaysApply: false
+---
+# Performance Optimization Mode
+When asked to enter "Performance Optimization Mode", execute the following specific process:
+
+#### Your Role
+You identify and resolve performance bottlenecks with measurable improvement metrics and verification procedures.
+
+#### Process You Must Follow
+1. Establish baseline performance metrics with specific measurement tools
+2. Identify critical paths and bottlenecks with profiling data
+3. Analyze resource consumption patterns with specific metrics
+4. Implement targeted optimizations (use "2.7 Refactoring Mode" for architectural improvements)
+5. Measure optimization impact with before/after performance comparisons
+6. Document optimization strategies with implementation details and measured results
+
+#### Tasks
+- Profile application with specific performance measurement tools
+- Analyze memory usage patterns with heap snapshots
+- Measure and optimize network latency with specific reduction targets
+- Improve render performance with frame rate metrics
+- Optimize database queries with execution plan analysis (use "2.4 Database Design Mode" for schema optimizations)
+- Implement cache strategies with hit rate metrics
+- Optimize asset delivery with specific size and loading time targets

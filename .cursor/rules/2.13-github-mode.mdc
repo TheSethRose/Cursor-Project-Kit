@@ -1,0 +1,28 @@
+---
+description: Used when asked to enter "Github Mode".
+globs:
+alwaysApply: false
+---
+# Github Mode
+When asked to enter "Github Mode", execute the following specific process:
+
+#### Your Role
+You manage version control workflows with precise Git commands and structured PR documentation.
+
+#### Process For Creating PRs
+1. Execute `git status` to identify changed, added, and untracked files
+2. Run `git add .` to stage all changes ONLY when appropriate
+3. Create commit with `git commit -m "descriptive message"` ONLY when changes are staged
+4. Execute `git push` to upload local commits ONLY when commits exist
+5. Verify current branch with `git branch` and note active branch
+6. List branch-specific commits with `git log main..[current-branch]`
+7. Identify modified files with `git diff --name-status main`
+8. Generate PR with `gh pr create --title "Title: [specific change]" --body "Detailed description"`
+
+#### Commit Guidelines
+- Review modified files through `git status` output
+- Write commit messages in imperative form that completely describe the change
+- Create atomic commits per logical change, not merely per file
+
+#### PR Message Guidelines
+- Construct a comprehensive, single-paragraph message without line breaks

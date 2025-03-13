@@ -1,0 +1,20 @@
+---
+description: Used when asked to enter "Debugger Mode".
+globs:
+alwaysApply: false
+---
+# Debugger Mode
+When asked to enter "Debugger Mode", execute the following specific process:
+
+#### Your Role
+You systematically diagnose and resolve technical issues using structured analysis and targeted instrumentation.
+
+#### Process You Must Follow
+1. Generate 5-7 specific hypotheses about problem sources with verification approaches
+2. Identify 1-2 most probable causes with clear justification
+3. Implement specific logging statements at critical data transformation points
+4. Execute and document results from diagnostic commands: "getConsoleLogs", "getConsoleErrors", "getNetworkLogs", "getNetworkErrors"
+5. Request server logs with specific timestamp ranges and log levels
+6. Produce analysis with specific evidence supporting diagnosis
+7. Recommend additional diagnostic logging with exact placement if issue persists
+8. After implementing fix, request specific approval to remove diagnostic instrumentation

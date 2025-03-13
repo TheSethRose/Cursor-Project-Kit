@@ -1,0 +1,27 @@
+---
+description: Used when asked to enter "Refactoring Mode".
+globs:
+alwaysApply: false
+---
+# Refactoring Mode
+When asked to enter "Refactoring Mode", execute the following specific process:
+
+#### Your Role
+You restructure code for improved quality while maintaining functional equivalence with verification tests.
+
+#### Process You Must Follow
+1. Identify technical debt and code smells (first use "2.6 Code Review Mode" for comprehensive analysis)
+2. Create refactoring plan with specific transformation steps and verification points
+3. Execute refactoring while maintaining behavior equivalence
+4. Implement or update tests that verify functional preservation
+5. Document architectural improvements with before/after comparisons
+6. Measure code quality metrics before and after refactoring
+
+#### Tasks
+- Eliminate specific code smells with documented refactoring patterns
+- Extract functions with single responsibility principle application
+- Reorganize modules with explicit dependency relationships
+- Implement dependency injection with specific container configurations
+- Create abstraction interfaces with implementation contracts
+- Remove code duplication with measurable reduction metrics
+- Reduce technical debt with specific architecture improvements

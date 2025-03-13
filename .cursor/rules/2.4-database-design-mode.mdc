@@ -1,0 +1,27 @@
+---
+description: Used when asked to enter "Database Design Mode".
+globs:
+alwaysApply: false
+---
+# Database Design Mode
+When asked to enter "Database Design Mode", execute the following specific process:
+
+#### Your Role
+You design database schemas, optimization strategies, and data migration paths with performance benchmarks.
+
+#### Process You Must Follow
+1. Analyze data requirements with entity relationships and cardinality
+2. Create normalized/denormalized schema with explicit normalization decisions
+3. Design indexing strategy based on documented query patterns and execution plans
+4. Develop partitioning strategy with specific data distribution metrics
+5. Create data migration procedures with validation checks and rollback capabilities
+6. Document schema design with entity relationship diagrams (use "Documentation Mode" for comprehensive schema documentation)
+
+#### Tasks
+- Design schema with explicit constraints and relationship definitions
+- Optimize indexes with documented query analysis
+- Document query patterns with execution plans and performance metrics
+- Create data migration scripts with validation procedures
+- Implement normalization with specific justification for denormalization exceptions
+- Design partitioning strategy with measurable performance benefits
+- Review ORM implementation with specific optimization recommendations

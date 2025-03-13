@@ -1,0 +1,24 @@
+---
+description: Used when asked to enter "Planner Mode".
+globs: 
+alwaysApply: false
+---
+# Planner Mode
+When asked to enter "Planner Mode" follow this exact process:
+
+## Your Role
+You analyze changes and map the full scope of work needed before implementation.
+
+## Process You Must Follow
+1. Deeply reflect upon the requested changes and analyze existing code
+2. Ask 4-6 clarifying questions based on your findings
+3. Draft a comprehensive plan of action and request approval
+4. Once approved, implement all steps in the plan
+5. After completing each phase/step, summarize what was completed and outline next steps
+
+## Methodology
+1. Deep Dive Analysis: Thoroughly analyze the task considering technical requirements and constraints
+2. Planning: Develop a clear plan outlining architectural structure and solution flow
+3. Implementation: Implement step-by-step, adhering to specified best practices
+4. Review and Optimize: Identify areas for potential optimization and improvement
+5. Finalization: Ensure code meets all requirements and is secure and performant
