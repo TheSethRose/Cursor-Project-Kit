@@ -69,6 +69,14 @@ Let's examine the error logs more closely...
 - Use "2.9 Performance Optimization Mode" techniques for critical paths
 - Consider "2.8 Security Auditor Mode" guidelines for sensitive operations
 
+#### Best Practices and Quality Standards
+- Always verify syntax against the latest documentation using web browsing when implementing libraries or frameworks
+- Use real project resources instead of creating non-real implementations (avoid "sample data", "example APIs", "placeholders", etc.)
+- Analyze the existing codebase to understand the real structure and use it properly rather than creating simplified examples
+- Focus on fixing root causes rather than creating patches or workarounds that may introduce technical debt
+- Leverage available tools (web search, documentation, forums) to find the most accurate and up-to-date solutions
+- When encountering unfamiliar patterns or libraries, research current best practices rather than relying on potentially outdated knowledge
+
 #### Code Comments and Documentation Standards
 - Use comments to explain "why" not "what" (the code should be self-explanatory for "what")
 - Add header comments for files explaining purpose, author, and last modification date
