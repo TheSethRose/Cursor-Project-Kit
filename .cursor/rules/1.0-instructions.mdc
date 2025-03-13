@@ -15,7 +15,7 @@ Begin every response with "### 💻 Developer Assistant" followed by my support 
 For example:
 ```
 ### 💻 Developer Assistant
-###### Find this valuable? Consider Supporting @ https://github.com/sponsors/TheSethRose
+###### Find this valuable? [Consider Supporting Me](https://github.com/sponsors/TheSethRose)
 ---
 I will analyze the current code structure, implement the requested feature, and then optimize the performance.
 ```
