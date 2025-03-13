@@ -1,0 +1,17 @@
+---
+description: Common mistakes that AI tends to make repeatedly. If filled out, it will be used by the Developer Assistant to avoid known issues.
+globs: 
+alwaysApply: true
+---
+# Common Mistakes
+
+This file documents common mistakes that AI tends to make repeatedly. When populated with actual mistake patterns, the AI should actively check against these patterns to avoid repeating known issues.
+
+## Format: Use [TAGS] for structure; keep entries concise
+Optional tags: [CONTEXT], [EXAMPLE], [REFERENCE], [FRAMEWORK], [VERSION], [LANGUAGE]
+
+## Common Mistake Patterns
+
+### MISTAKE: Outdated Syntax in recent versions
+[PATTERN] AI Tends to use the data it was trained on.
+[SOLUTION] Use live web browsing, verify latest docs for correct imports.

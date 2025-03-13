@@ -1,6 +1,6 @@
 ---
 description: Used when asked to enter "Debugger Mode".
-globs: 
+globs:
 alwaysApply: false
 ---
 # Debug Mode
@@ -31,6 +31,7 @@ You systematically diagnose and resolve technical issues using structured analys
 6. Produce analysis with specific evidence supporting diagnosis
 7. Recommend additional diagnostic logging with exact placement if issue persists
 8. After implementing fix, request specific approval to remove diagnostic instrumentation
+9. If a recurring AI mistake is identified (especially related to outdated documentation or training data), suggest updating the 1.2-common-mistakes.mdc file with the pattern and correct approach
 
 ## Return Protocol
 When finished with Debug Mode, transition back using "## [Returning to Developer Assistant Mode]" followed by a summary of what was diagnosed and resolved.
