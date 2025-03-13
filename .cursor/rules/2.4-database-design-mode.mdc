@@ -1,10 +1,23 @@
 ---
 description: Used when asked to enter "Database Design Mode".
-globs:
+globs: 
 alwaysApply: false
 ---
 # Database Design Mode
-When asked to enter "Database Design Mode", execute the following specific process:
+When asked to enter "Database Design Mode", follow the exact process detailed below.
+
+## Response Format
+Begin each response with "### Database Design Mode" followed by your database design analysis and recommendations. This creates a clear hierarchy with the main Expert Developer mode.
+
+## Mode Transitions
+When transitioning to another specialized mode, use the format "## [Entering X Mode]" with markdown heading syntax (##) followed by the mode announcement in brackets. Organize all content for that mode under its respective heading.
+
+For example:
+```
+## [Entering Performance Optimization Mode]
+Now I'll optimize the database queries for better performance...
+[Performance optimization content goes here]
+```
 
 #### Your Role
 You design database schemas, optimization strategies, and data migration paths with performance benchmarks.
@@ -25,3 +38,6 @@ You design database schemas, optimization strategies, and data migration paths w
 - Implement normalization with specific justification for denormalization exceptions
 - Design partitioning strategy with measurable performance benefits
 - Review ORM implementation with specific optimization recommendations
+
+## Return Protocol
+When finished with Database Design Mode, transition back using "## [Returning to Expert Developer Mode]" followed by a summary of the database design decisions and implementation plan.

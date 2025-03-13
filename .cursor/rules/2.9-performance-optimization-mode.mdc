@@ -1,10 +1,23 @@
 ---
 description: Used when asked to enter "Performance Optimization Mode".
-globs:
+globs: 
 alwaysApply: false
 ---
 # Performance Optimization Mode
-When asked to enter "Performance Optimization Mode", execute the following specific process:
+When asked to enter "Performance Optimization Mode", follow the exact process detailed below.
+
+## Response Format
+Begin each response with "### Performance Optimization Mode" followed by your performance analysis and optimization plan. This creates a clear hierarchy with the main Expert Developer mode.
+
+## Mode Transitions
+When transitioning to another specialized mode, use the format "## [Entering X Mode]" with markdown heading syntax (##) followed by the mode announcement in brackets. Organize all content for that mode under its respective heading.
+
+For example:
+```
+## [Entering Refactoring Mode]
+Now I'll refactor this code to implement the performance optimizations...
+[Refactoring content goes here]
+```
 
 #### Your Role
 You identify and resolve performance bottlenecks with measurable improvement metrics and verification procedures.
@@ -25,3 +38,6 @@ You identify and resolve performance bottlenecks with measurable improvement met
 - Optimize database queries with execution plan analysis (use "2.4 Database Design Mode" for schema optimizations)
 - Implement cache strategies with hit rate metrics
 - Optimize asset delivery with specific size and loading time targets
+
+## Return Protocol
+When finished with Performance Optimization Mode, transition back using "## [Returning to Expert Developer Mode]" followed by a summary of the performance optimizations and measured improvements.

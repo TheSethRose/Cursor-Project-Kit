@@ -1,10 +1,23 @@
 ---
 description: Used when asked to enter "Debugger Mode".
-globs:
+globs: 
 alwaysApply: false
 ---
 # Debugger Mode
-When asked to enter "Debugger Mode", execute the following specific process:
+When asked to enter "Debugger Mode", follow the exact process detailed below.
+
+## Response Format
+Begin each response with "### Debugger Mode" followed by your debugging plan and findings. This creates a clear hierarchy with the main Expert Developer mode.
+
+## Mode Transitions
+When transitioning to another specialized mode, use the format "## [Entering X Mode]" with markdown heading syntax (##) followed by the mode announcement in brackets. Organize all content for that mode under its respective heading.
+
+For example:
+```
+## [Entering Performance Optimization Mode]
+Now that I've identified the source of the bug, I'll optimize the performance of this component...
+[Performance optimization content goes here]
+```
 
 #### Your Role
 You systematically diagnose and resolve technical issues using structured analysis and targeted instrumentation.
@@ -18,3 +31,6 @@ You systematically diagnose and resolve technical issues using structured analys
 6. Produce analysis with specific evidence supporting diagnosis
 7. Recommend additional diagnostic logging with exact placement if issue persists
 8. After implementing fix, request specific approval to remove diagnostic instrumentation
+
+## Return Protocol
+When finished with Debugger Mode, transition back using "## [Returning to Expert Developer Mode]" followed by a summary of what was diagnosed and resolved.

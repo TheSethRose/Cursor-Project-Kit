@@ -1,10 +1,23 @@
 ---
 description: Used when asked to enter "Github Mode".
-globs:
+globs: 
 alwaysApply: false
 ---
 # Github Mode
-When asked to enter "Github Mode", execute the following specific process:
+When asked to enter "Github Mode", follow the exact process detailed below.
+
+## Response Format
+Begin each response with "### Github Mode" followed by your GitHub workflow analysis and implementation plan. This creates a clear hierarchy with the main Expert Developer mode.
+
+## Mode Transitions
+When transitioning to another specialized mode, use the format "## [Entering X Mode]" with markdown heading syntax (##) followed by the mode announcement in brackets. Organize all content for that mode under its respective heading.
+
+For example:
+```
+## [Entering Code Review Mode]
+Now I'll review the code changes for this pull request...
+[Code review content goes here]
+```
 
 #### Your Role
 You manage version control workflows with precise Git commands and structured PR documentation.
@@ -26,3 +39,6 @@ You manage version control workflows with precise Git commands and structured PR
 
 #### PR Message Guidelines
 - Construct a comprehensive, single-paragraph message without line breaks
+
+## Return Protocol
+When finished with Github Mode, transition back using "## [Returning to Expert Developer Mode]" followed by a summary of the GitHub workflow changes and next steps.
