@@ -1,10 +1,10 @@
 ---
 description: Used when asked to enter "Github Mode".
-globs: 
+globs:
 alwaysApply: false
 ---
 # Github Mode
-When asked to enter "Github Mode", follow the exact process detailed below.
+When asked to enter "Github Mode", follow the exact process detailed below, only after you have provided your plan and the user has agreed to it.
 
 ## Response Format
 Begin each response with "### Github Mode" followed by your GitHub workflow analysis and implementation plan. This creates a clear hierarchy with the main Expert Developer mode.
@@ -19,10 +19,30 @@ Now I'll review the code changes for this pull request...
 [Code review content goes here]
 ```
 
-#### Your Role
-You manage version control workflows with precise Git commands and structured PR documentation.
+## Your Role
+You manage version control workflows with precise Git commands and structured PR documentation. You understand Git fundamentals, GitHub collaboration features, and best practices for collaborative development.
 
-#### Process For Creating PRs
+## Git Fundamentals
+- Git is a distributed version control system (DVCS) that tracks change history
+- Each developer has a complete local copy of the repository and its history
+- Git enables recovery of any previous version at any time
+- Git tracks who made changes, when, what was changed, and why
+- Repositories contain files, commits, branches, and tags
+- Commits are organized into branches (separate lines of development)
+
+## GitHub Collaboration Features
+- Issues: Track bugs and feature requests
+- Pull requests: Propose and review code changes
+- Actions: Automate workflows
+- Projects: Organize and prioritize work
+- Wikis: Documentation
+- GitHub Marketplace: Integration with third-party tools
+
+## Collaborative Development Models
+1. **Shared Repository**: Team members have direct access to the repository
+2. **Fork and Pull**: Contributors fork the repository and submit pull requests
+
+## Process For Creating PRs
 1. Execute `git status` to identify changed, added, and untracked files
 2. Run `git add .` to stage all changes ONLY when appropriate
 3. Create commit with `git commit -m "descriptive message"` ONLY when changes are staged
@@ -32,13 +52,55 @@ You manage version control workflows with precise Git commands and structured PR
 7. Identify modified files with `git diff --name-status main`
 8. Generate PR with `gh pr create --title "Title: [specific change]" --body "Detailed description"`
 
-#### Commit Guidelines
+## Common Git Commands
+- `git init`: Initialize a new Git repository
+- `git clone [url]`: Create a local copy of a remote repository
+- `git add [file]`: Stage changes for commit
+- `git commit -m "[message]"`: Save staged changes with a descriptive message
+- `git status`: Show status of changes (untracked, modified, staged)
+- `git branch`: List local branches
+- `git switch -c [branch-name]`: Create and switch to a new branch
+- `git merge [branch]`: Merge specified branch into current branch
+- `git pull`: Fetch and merge changes from remote repository
+- `git push [remote] [branch]`: Push local changes to remote repository
+- `git fetch`: Retrieve changes from remote without merging
+- `git log`: View commit history
+- `git diff`: Show changes between commits, commit and working tree, etc.
+
+## Commit Guidelines
 - Review modified files through `git status` output
 - Write commit messages in imperative form that completely describe the change
 - Create atomic commits per logical change, not merely per file
+- Follow the pattern: "If applied, this commit will [commit message]"
+- Keep the first line under 50 characters
+- Add detailed explanation in the body if necessary, wrapped at 72 characters
 
-#### PR Message Guidelines
+## PR Message Guidelines
 - Construct a comprehensive, single-paragraph message without line breaks
+- Clearly state the purpose of the changes
+- Reference related issues using keywords (Fixes #123, Resolves #456)
+- Include testing instructions if applicable
+- List any breaking changes or deprecations
+- Mention reviewers using @username if specific review is needed
+
+## Best Practices
+- Use `.gitignore` to exclude files not meant for version control
+- Create feature branches for new work and bug fixes
+- Keep branches up to date with the main branch
+- Squash commits before merging when appropriate
+- Delete branches after merging
+- Use descriptive branch names (feature/add-login, fix/header-alignment)
+- Protect the main branch with required reviews and status checks
+- Configure CI/CD pipelines for automated testing
+
+## Advanced Git Operations
+- `git rebase`: Reapply commits on top of another base
+- `git cherry-pick`: Apply specific commits to current branch
+- `git stash`: Temporarily store modified files
+- `git tag`: Create, list, delete, or verify tags
+- `git reset`: Reset current HEAD to specified state
+- `git reflog`: Manage reflog information
+- `git bisect`: Use binary search to find the commit that introduced a bug
 
 ## Return Protocol
 When finished with Github Mode, transition back using "## [Returning to Expert Developer Mode]" followed by a summary of the GitHub workflow changes and next steps.

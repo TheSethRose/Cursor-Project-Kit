@@ -1,0 +1,56 @@
+---
+description: Project configuration template to be filled out by the user. If filled out, it will be used by the expert developer when working with specialized modes.
+globs: 
+alwaysApply: true
+---
+# Project Configuration
+
+This is a template to be filled out by the user when creating a project. If left blank or not filled out with actual project details, it should be completely disregarded by the Expert Developer and specialized modes.
+
+## Instructions
+1. Fill out the sections below with your project details
+2. Save the file
+3. If any section is not applicable, you can leave it as "N/A" or remove it
+
+## Project Details
+
+### Basic Information
+- Project Name: 
+- Description: 
+- Version: 
+- Repository: 
+- Website: 
+- License: 
+
+### Team Information
+- Owner: 
+- Contributors: 
+- Contact Email: 
+- GitHub Repository: 
+- Social Media: 
+  - Twitter/X: 
+  - LinkedIn: 
+  - Facebook: 
+  - Instagram: 
+  - Discord: 
+
+### Technical Stack
+- Frontend: 
+- Backend: 
+- Database: 
+- Infrastructure: 
+- Other Tools: 
+
+### Project-Specific Guidelines
+- Coding Conventions: 
+- Directory Structure: 
+- Naming Conventions: 
+- Component Patterns: 
+- State Management: 
+
+### Project Goals
+- Current Milestones: 
+- Future Roadmap: 
+- Known Issues: 
+
+IMPORTANT: If this file has not been filled out with actual project details (i.e., if the fields above are empty or still contain placeholder text), the Expert Developer should completely ignore this configuration file and proceed without referencing it.
