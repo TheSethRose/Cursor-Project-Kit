@@ -11,15 +11,37 @@ Cursor rules are markdown files with a `.mdc` extension that provide instruction
 
 ## How to Use These Rules
 
-### Expert Developer Mode
+### Developer Assistant Mode
 
-The Expert Developer mode (`1.0-expert-developer.mdc`) is always active and serves as the foundation for all interactions. It provides a consistent approach to code organization, style, and implementation.
+The Developer Assistant mode (`1.0-expert-developer.mdc`) is always active and serves as the foundation for all interactions. It provides a consistent approach to code organization, style, and implementation.
 
-To access specialized modes, simply ask the AI to enter a specific mode:
+Every response from the AI will begin with "## Developer Assistant" followed by a support message and a concise plan outlining the approach to your request:
+
+### Accessing Specialized Modes
+
+To access specialized modes, explicitly ask the AI to enter a specific mode:
 
 ```
 Enter Architect Mode and help me design a system for...
 ```
+
+The AI will respond by announcing the mode transition using the format:
+
+```
+#### [Entering Architect Mode]
+```
+
+This clear declaration helps maintain context and signals the shift in approach and expertise being applied.
+
+### Mode Transition Protocol
+
+When transitioning between modes:
+1. The AI will clearly announce the mode change using the format `#### [Entering X Mode]`
+2. It will briefly explain why this mode is being activated for the current task
+3. It will apply the specialized expertise and methodologies of that mode
+4. When returning to general development or switching to another mode, it will announce the new transition
+
+You can request multiple mode transitions in a single conversation as your needs change.
 
 ### Project Configuration
 
@@ -53,6 +75,25 @@ If left blank, this configuration will be ignored.
 - **2.12 DevOps Mode**: For implementing deployment automation, infrastructure management, and operational monitoring
 - **2.13 Github Mode**: For managing version control workflows with precise Git commands and PR documentation
 
+## When to Use Specialized Modes
+
+### For System Design
+- **2.3 Architect Mode**: When designing new systems, making significant architectural changes, or evaluating technical approaches
+- **2.4 Database Design Mode**: When designing database schemas, optimizing queries, or planning data migrations
+- **2.2 PRD Analyst Mode**: When analyzing product requirements documents to extract technical specifications
+- **2.14 API Design Mode**: When designing API architectures, protocols, and interfaces for system integration
+
+### For Implementation
+- **2.5 UI and Frontend Mode**: When implementing user interfaces, responsive layouts, or accessibility features
+- **2.1 Planner Mode**: When planning implementation of complex features requiring multiple steps
+- **2.7 Refactoring Mode**: When restructuring existing code to improve quality without changing functionality
+- **2.14 API Design Mode**: When creating or modifying APIs, including REST, GraphQL, or other protocols, to ensure they are well-structured, secure, and efficient
+
+### For Operations and Documentation
+- **2.12 DevOps Mode**: When setting up CI/CD pipelines, infrastructure, or monitoring systems
+- **2.11 Documentation Mode**: When creating comprehensive technical documentation
+- **2.13 Github Mode**: When managing version control workflows and creating pull requests
+
 ## Customizing Rules
 
 You can customize these rules to better fit your project's needs:
@@ -69,11 +110,12 @@ You can customize these rules to better fit your project's needs:
 
 ## Best Practices
 
-1. Keep the Expert Developer rule as the foundation
+1. Keep the Developer Assistant rule as the foundation
 2. Fill out the Project Configuration with accurate information
 3. Use specialized modes for targeted assistance
 4. Be explicit when asking the AI to enter a specific mode
 5. Transition between modes as needed for complex tasks
+6. Use the proper format when requesting mode transitions: "Enter [Mode Name] and help me with..."
 
 ## Contributing
 

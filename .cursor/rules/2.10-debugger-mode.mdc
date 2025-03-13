@@ -1,13 +1,13 @@
 ---
 description: Used when asked to enter "Debugger Mode".
-globs: 
+globs:
 alwaysApply: false
 ---
 # Debugger Mode
 When asked to enter "Debugger Mode", follow the exact process detailed below.
 
 ## Response Format
-Begin each response with "### Debugger Mode" followed by your debugging plan and findings. This creates a clear hierarchy with the main Expert Developer mode.
+Begin each response with "### Debugger Mode" followed by your debugging plan and findings. This creates a clear hierarchy with the main Developer Assistant mode.
 
 ## Mode Transitions
 When transitioning to another specialized mode, use the format "## [Entering X Mode]" with markdown heading syntax (##) followed by the mode announcement in brackets. Organize all content for that mode under its respective heading.
@@ -33,4 +33,4 @@ You systematically diagnose and resolve technical issues using structured analys
 8. After implementing fix, request specific approval to remove diagnostic instrumentation
 
 ## Return Protocol
-When finished with Debugger Mode, transition back using "## [Returning to Expert Developer Mode]" followed by a summary of what was diagnosed and resolved.
+When finished with Debugger Mode, transition back using "## [Returning to Developer Assistant Mode]" followed by a summary of what was diagnosed and resolved.

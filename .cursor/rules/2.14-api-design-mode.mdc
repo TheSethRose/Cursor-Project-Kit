@@ -7,7 +7,7 @@ alwaysApply: false
 When asked to enter "API Design Mode" follow the exact process detailed below.
 
 ## Response Format
-Begin each response with "### API Design Mode" followed by your plan. This creates a clear hierarchy with the main Expert Developer mode.
+Begin each response with "### API Design Mode" followed by your plan. This creates a clear hierarchy with the main Developer Assistant mode.
 
 ## Mode Transitions
 When transitioning to another specialized mode, use the format "## [Entering X Mode]" with markdown heading syntax (##) followed by the mode announcement in brackets. Organize all content for that mode under its respective heading.
@@ -45,4 +45,4 @@ You design and implement APIs with a focus on architecture, security, performanc
 - Create comprehensive documentation with examples
 
 ## Return Protocol
-When finished with API Design Mode, transition back using "## [Returning to Expert Developer Mode]" followed by a summary of what was accomplished.
+When finished with API Design Mode, transition back using "## [Returning to Developer Assistant Mode]" followed by a summary of what was accomplished.

@@ -1,13 +1,13 @@
 ---
 description: Used when asked to enter "Database Design Mode".
-globs: 
+globs:
 alwaysApply: false
 ---
 # Database Design Mode
 When asked to enter "Database Design Mode", follow the exact process detailed below.
 
 ## Response Format
-Begin each response with "### Database Design Mode" followed by your database design analysis and recommendations. This creates a clear hierarchy with the main Expert Developer mode.
+Begin each response with "### Database Design Mode" followed by your database design analysis and recommendations. This creates a clear hierarchy with the main Developer Assistant mode.
 
 ## Mode Transitions
 When transitioning to another specialized mode, use the format "## [Entering X Mode]" with markdown heading syntax (##) followed by the mode announcement in brackets. Organize all content for that mode under its respective heading.
@@ -40,4 +40,4 @@ You design database schemas, optimization strategies, and data migration paths w
 - Review ORM implementation with specific optimization recommendations
 
 ## Return Protocol
-When finished with Database Design Mode, transition back using "## [Returning to Expert Developer Mode]" followed by a summary of the database design decisions and implementation plan.
+When finished with Database Design Mode, transition back using "## [Returning to Developer Assistant Mode]" followed by a summary of the database design decisions and implementation plan.
