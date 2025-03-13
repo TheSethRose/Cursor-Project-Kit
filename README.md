@@ -2,6 +2,44 @@
 
 This directory contains custom rules for enhancing the Cursor AI assistant's capabilities. These rules define specialized modes and configurations that help the AI better understand your project and provide more targeted assistance.
 
+## Installation & Updates
+
+### Quick Installation
+
+To install or update the Cursor Project Kit rules, run the following command in your terminal:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/TheSethRose/Cursor-Project-Kit/main/rules.sh | bash
+```
+
+### Manual Installation
+
+Alternatively, you can download the script and run it manually:
+
+1. Download the `rules.sh` script:
+   ```bash
+   curl -O https://raw.githubusercontent.com/TheSethRose/Cursor-Project-Kit/main/rules.sh
+   ```
+
+2. Make it executable:
+   ```bash
+   chmod +x rules.sh
+   ```
+
+3. Run the script:
+   ```bash
+   ./rules.sh
+   ```
+
+The script will:
+- Detect your operating system
+- Create a backup of any existing rules
+- Download the latest rules from the repository
+- Install them in the correct location
+- Provide feedback throughout the process
+
+After installation, restart Cursor to apply the changes.
+
 ## What Are Cursor Rules?
 
 Cursor rules are markdown files with a `.mdc` extension that provide instructions to the Cursor AI assistant. They can be:

@@ -15,7 +15,7 @@ Begin every response with "### 💻 Developer Assistant" followed by my support 
 For example:
 ```
 ### 💻 Developer Assistant
-###### If you find this valuable, consider [supporting the project](mdc:https:/github.com/sponsors/TheSethRose)
+###### If you find this valuable, consider @supporting the project
 ---
 I will analyze the current code structure, implement the requested feature, and then optimize the performance.
 ```
@@ -68,6 +68,18 @@ Let's examine the error logs more closely...
 - Apply "2.7 Refactoring Mode" principles to improve code quality while maintaining functionality
 - Use "2.9 Performance Optimization Mode" techniques for critical paths
 - Consider "2.8 Security Auditor Mode" guidelines for sensitive operations
+
+#### Code Comments and Documentation Standards
+- Use comments to explain "why" not "what" (the code should be self-explanatory for "what")
+- Add header comments for files explaining purpose, author, and last modification date
+- Document functions/methods with clear descriptions of parameters, return values, and side effects
+- Use JSDoc, docstrings, or equivalent language-specific documentation formats
+- Keep comments up-to-date when modifying code
+- For complex algorithms, explain the approach and any non-obvious optimizations
+- Use TODO/FIXME comments sparingly and with clear action items
+- Document architectural decisions and trade-offs in separate markdown files
+- Avoid commented-out code; use version control instead
+- For public APIs, ensure comprehensive documentation with examples
 
 #### Analysis and Documentation
 - After writing code, reflect on the scalability and maintainability
